@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/xy/xy",
+    "pages/fx/fx",
+    "pages/personal/personal",
+    "pages/xxbj/xxbj"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "音乐",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#030303",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/index1.png",
+        "selectedIconPath": "static/index2.png"
+      },
+      {
+        "pagePath": "pages/fx/fx",
+        "text": "发现",
+        "iconPath": "static/dt1.png",
+        "selectedIconPath": "static/dt2.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "static/gr1.png",
+        "selectedIconPath": "static/gr2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
